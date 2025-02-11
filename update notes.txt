@@ -1,0 +1,815 @@
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Twenty-second release (γ9.2) {07/13/2024} [bugfix patch]:
+Freeplay mode changes:
+	→added ability to swap CO list with Select button while on CO select screen
+	→removed code for selecting an alternate CO with L+R
+
+Bugfixes:
+	→fixed AI causing crash/softlock in Mission 3
+	→fixed Freeplay faction data not saving correctly
+	→fixed softlock on victory screen during Freeplay mode
+	→fixed some map names being incorrect
+	
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Twenty-first release (γ9.1) {01/06/2024} [bugfix patch]:
+Campaign mode changes:
+	→fixed bug causing game to crash on results screen
+	
+Design room mode changes:
+	→fixed Sea and Plain fill commands being swapped
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Twenty-first release (γ9.0) {11/05/2023} [official release] "System update ε":
+Miscellaneous changes:
+	→pressing Select while on the map loads a damage chart for a unit on that tile
+		☼pressing Select while the chart is open toggles between damage recieved and damage dealt
+
+Freeplay mode changes:
+	→replaced several maps
+	→the description text for Terms is now updated to reflect what information is described during Freeplay mode in the Terms chart
+	→name graphics for all COs are now displayed instead of garbage graphics
+	→select graphics for all COs now load
+	→fixed bad graphics loading for No CO when entering CO select
+	→slightly changed how game saves faction colors
+	→faction colors are now correct upon first boot-up or resetting all data
+
+Campaign mode changes:
+	→any faction on the same team as faction 1 will now play Power Up! during CO powers
+	→any faction not on the same team as faction 1 will now play Stormy Times during CO powers
+	→attempted to fix a softlock/crash
+	
+CO colors changes:
+	→all the boxes have been completely removed
+	→all main COs can now appear on the CO colors screen
+	→removed the L+R code for selecting alternate COs
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Twentieth release (γ8.3) {03/18/2023} [quick release]:
+CO changes:
+	→fixed oversight that caused the AI to use the incorrect CO unit ID list
+	→fixed oversight that caused the AI to check the wrong flag when determining which units it should CO unit
+
+Freeplay mode changes:
+	→fixed maximum initial Funds being capped at 65535 instead of 99000
+	→fixed oversight that allowed a CO still be selected even if it became locked when entering Freeplay mode
+
+Victory screen changes:
+	→fixed oversight that caused a white screen softlock
+
+Unit changes:
+	→buffed War tank as a test
+		☼increased defense against indirects and aerial, increased offense against vehicles, +1 movement
+
+Campaign mode changes:
+	→fixed a typo in Sunrise
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Nineteenth release (γ8.2) {03/17/2023} [quick release]:
+Mapedit mode changes:
+	→fixed bug where map size was always considered 0x0 when changing map size, resulting in the entire map being filled with Sea
+	→fixed bug where the game would softlock when attempting to set certain Rules
+	→fixed some beach tiles having no graphics in various circumtances
+		☼certain tilings will appear strange, but there should be a graphic more often than not
+	
+Freeplay mode changes:
+	→fixed Funds and Income Rules parameters being swapped
+	→fixed L and R buttons crashing the game or doing nothing on Rules select screen
+	→pressing the L and R buttons on a Rule will now set the minimum and maximum values, respectively	
+	→pressing L and R on a rule now plays a different sound effect
+	→fixed the game not saving and loading Random weather properly
+	→text for single description parameters will no longer have their scroll progress reset when adjusting their parameter
+	→the game now remembers which faction colors were used last when starting new battles
+
+CO changes:
+	→reworked CO power per-unit animation and per-unit SFX routine
+		☼Greyfield now uses a different SFX
+		☼Cyrus now uses a different SFX and animation
+		☼The Beast now uses a different SFX
+
+Campaign mode changes:
+	→fixed softlock in Sacrificial Lamb
+	→fixed text error in Sacrificial Lamb
+	→replaced Eerie Lake with "Nomad" (currently incomplete)
+
+Miscellaneous changes:
+	→fixed faction 4 palette unlit palette being darker than before
+	→added a beach graphic that exclusively floats in water
+	
+	
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Eighteenth release (γ8.1) {03/11/2023} [quick release]:
+Freeplay mode changes:
+	→fixed oversight that caused Mapedit maps to always use default colors
+	→changed sound effect for changing faction colors
+	→changed description for CPU/Player toggle to reflect that faction colors can be changed
+
+Campaign mode changes:
+	→fixed The Beast talking as if units have been damaged when none have been damaged in Mission 1
+
+Miscellaneous changes:
+	→fixed a softlock on hardware?
+
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Seventeenth release (γ8.0) {03/11/2023} [official release] "System update Δ":
+Campaign mode changes:
+	→fixed oversight that made Options menu command not appear if CO Powers were disabled
+	→tweaked Mission 12 map and unit placements
+	→tweaked Mission 14 map and unit placements
+	→changed Mission 20 win conditions
+	→reworked internal coding for inventions (Talon guns can have weakpoints in different locations)
+	→fixed Recon in Mission 10 triggering dialogue for a unit being destroyed when no units have been destroyed
+	→fixed some units in Mission 10 not having full fuel at the start of the battle
+	→changed camera positions in Mission 10 during initial map cutscene
+	→fixed the Dusters in Panic in the Ranks not starting with 9 ammo
+	→fixed events in Lin's Gambit that were executing on the wrong turns
+	→fixed softlock in The Great Owl
+	→replaced D-Island with "Burning Forest"
+	→tweaked Mission 24 map and unit placements
+	→fixed text error in Mission 24 Terms text
+	→changed Trial map intro events to always display text based on the current CO instead of who the CO is supposed to be
+
+WiFi mode changes:
+	→removed debug input that disabled battle animations
+	→enabled Commander Info and Options menu commands
+		☼the timer continues ticking while in these menus
+
+Freeplay mode changes:
+	→changed layout of Rules select screen and updated graphics to match
+	→replaced initial CO meter parameter with level flags parameter
+	→added ability to change faction colors while on CO select screen
+	→allowed changing teams when there are only two players
+	→fixed several tiling errors on some maps
+	→property counts and funds are no longer displayed during the faction transition screen during fog of war
+	→fixed bug where game would check (CO ID)+1 for unlocks instead of the actual CO ID
+	→holding Start during a CPU-only battle loads prompt to save current battle
+	→holding Select during a CPU-only battle loads prompt to quit to main menu
+	→inverted the Trial map order
+
+Miscellaneous changes:
+	→added a count for unlaunched Silo tiles for top-screen property counts
+	→the silo count now distinguishes between unlaunched and launched silos
+	→updated on-map rules chart to match the Rules select screen
+	→campaign-exclusive tilesets now display a more appropriate name on the rules chart
+	→changed faction background colors on on-map rules chart to reflect the actual color of that faction
+	→changed top-screen warning sprite palette to a different color for testing purposes
+	→changed CO unit palettes for testing new colors
+	→the B-button can be used to skip a single text
+	→the L and R-buttons can be used to advance text
+	→Reef tiles now auto-tile when adjacent to land
+	→fixed aquatic Talon gun tiles not being aquatic
+	→changed aquatic Talon guns to use the same palette as land Talon guns
+	→removed partial black outlines from Road in Normal tileset
+	→changed palette (work-in-progress) for Ruins tiles in Snow and Normal tilesets
+	→replaced manual Plasma L. with incomplete "sky bridges" on normal tilesets
+	
+Records room changes:
+	→re-enabled saving/loading for COs played counter
+	→replaced Sunrise count with property capture victory count
+	→added records for number of defeats and captures initiated
+
+Mapedit mode changes:
+	→fixed bug where map size was always considered 0x0 when changing map size, resulting in the entire map being filled with Sea
+	→enabled placing Reef, Rough, and Bridge adjacent to and on top of land tiles
+	→fixed bug where aquatic Meteor, Plasma, and Plasma L. would fail to load graphics when loaded in from an Edit map
+	→allowed placing more than one HQ per faction
+
+Known bugs/issues:
+	-during rule select, all CO name graphics use the palette of the fourth CO
+	-during CO select, all COs use one palette for their name graphics
+	-there are no texts for various things in languages other than English
+	-the tutorial link is incorrect (feel free to check out the link though)
+	-some Freeplay maps may have odd tiling due to tileset change
+	-Cyrus, Davis, The Beast, and Fanatic use default colors for dialogue
+	-some larger Freeplay maps may cause softlock when playing against AI
+	-some COs on the Freeplay select screen use the wrong graphic on bottom screen
+	-the Tactics rooms give strategies for normal mode instead
+	-CO colors may be messed up with COs past 0xE when using a save from a previous version
+		-the following cheat code can fix the issue:
+			021203B0 00000000 - fix CO color issues from using old saves
+			then save the game to maintain the fixed state
+	-the graphic for Seaplane main weapon may load garbage graphics in the bottom-right corner on ocassion
+		-the graphic fixes itself upon resetting the game (unknown cause, though seems to have no gameplay/performance impacts)
+	-certain cutscenes may softlock the game
+		-the following cheat code should fix the issue:
+			021203B0 00000000
+	-CO units do not use unique palettes in Mapedit mode
+	-some graphical oddities appear when setting rules in Mapedit mode (fixed by adjusting the affected parameters)
+	-using the B-button to skip cutscenes may cause minor graphical glitches
+	-faction colors do not update until screen transitions in Freeplay
+	-various Records room requirements are incorrect
+	-reloading a Mapedit map in Mapedit mode causes the unit counts to be incorrect
+	-data for Anti-tanks and Gunboats destroyed is not saved properly
+	-Burning Forest map name is too long for the Freeplay map selection screen
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Sixteenth release (γ7.8) {02/14/2023} [quick release]:	
+Campaign changes:
+	→adjusted starting fuel for some units in Mission 5
+	→tweaked map for Mission 5
+	→tweaked map for Mission 6
+	→tweaked map for Mission 11
+	→tweaked map for Mission 12
+	→tweaked text for Mission 11
+	→fixed map for Mission 11
+	
+Miscellaneous changes:
+	→fixed softlock when attempting to view Trial map list in Freeplay
+	→added text when deleting data to indicate how to preserve Campaign and Mapedit data
+	→changed top-screen warning sprite palette to a different color for testing purposes
+	→changed CO unit palettes for testing new colors
+	
+Freeplay changes:
+	→incrementing/decrementing weather conditions using the left/right buttons can now also be used to toggle fog of war
+	→fixed description and name mismatch on Fog/Weather rules parameter
+
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Fifteenth release (γ7.6) {02/03/2023} [quick release]:	
+Miscellaneous changes:
+	→fixed bug causing data for the fourth faction to no transfer properly
+	→fixed bug that caused tileset data to get overwritten
+	→fixed bug that caused a check to read the wrong value (crashes hardware)
+	
+Mapedit changes:
+	→fixed bug where units would disappear after saving
+
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Fourteenth release (γ7.5) {02/02/2023} [quick release]:
+Miscellaneous changes:
+	→shifted GUI graphics for terrain/unit mini-box (HP, ammo, fuel)
+	→changed unit/terrain mini-box to display remaining capture points if there is a Rig and the tile is a Plain or Beach
+	
+Mapedit changes:
+	→fixed bug where the game would softlock after saving a map once
+	→fixed bug where units were not able to be placed correctly
+
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Thirteenth release (γ7.3) {11/11/2022} [quick release]:
+Campaign changes:
+	→fixed bug where game would softlock in The Great Owl
+	
+CO colors changes:
+	→removed black boxes for Davis and The Beast
+
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Twelfth release (γ7.2) {11/11/2022} [quick release]:
+Campaign changes:
+	→fixed bug where the CPU AI would be wrong for every Mission
+	→changed unit placements for Mission 24
+	
+Miscellaneous changes:
+	→tweaked tileset palettes for Ruins in normal and snow
+	
+CO colors changes:
+	→shifted all CO boxes up one row
+	→added black boxes for temporary visual indicators for Davis and The Beast
+	
+	
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Eleventh release (γ7.1) {11/09/2022} [quick release]:
+Campaign changes:
+	→tweaked Mission 4 unit placements
+	→fixed bug where parts of the Talon Gun would become null tiles
+	→fixed an incorrect portrait in Mission 19
+	→fixed a typo in Mission 16
+	→fixed a typo in Mission 20
+	→fixed bug that caused the game to crash in Mission 22
+	→fixed a missing tile in Mission 21
+	
+Miscellaneous changes:
+	→gave null tile, Sky, and Plasma L. unique mini-map graphics
+	→fixed four bugs that caused softlocks/crashes on hardware
+
+CO colors changes:
+	→Davis and The Beast are selectable by normal means
+		☼there are no graphics, however
+	→the background boxes now use the same palette as on the CO select screen
+
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Tenth release (γ7.0) {10/31/2022} [Official release] "System Update β":
+Campaign changes:
+	→tweaked Mission 16 unit placements
+	→tweaked Mission 11 unit placements
+	→tweaked some dialogue in Mission 11
+	→tweaked Mission 4 unit placements
+	→updated pre-deployed Rigs to start with 2 material
+	→fixed an incorrect portrait loading in Sunrise
+	→updated code to correctly display all COs unlocked after beating a campaign mission
+	→updated code to correctly check for worldmap progress for final worldmap theme
+	→fixed "GRAND FINALE!" not displaying on the final Mission
+	→changed some text in Crash Landing
+	→added one more Trial map
+	→fixed bug where certain tiles in The Nest would become Plain after loading a save
+	→fixed a map event in Salvation executing incorrectly
+	→tweaked some dialogue in Sunrise
+	→changed timing of events in Sunrise
+	→tweaked unit placements for Mission 14
+	→tweaked unit placements for Mission 12
+	→made minor changes to map for Mission 14
+	→fixed [NPC] Woman [2] using incorrect text SFX
+	
+Freeplay changes:
+	→replaced some old 4P maps with new 4P maps
+	→updated some of the Terms texts for the Competitive maps
+	→attempted to fix softlocks with CO selection screen
+	→maximum days has been increased to 255 from 99
+	→added debug command for WiFi mode
+		-using Select to open the menu turns map animation settings to off
+	→changed palette for boxes on CO selection screen
+	→revamped CO select screen
+		☼using the D-pad now works again for selecting COs
+		☼re-added No CO as a selectable option
+			>No CO can be selected to use any of the six factions
+				-how to change faction for No CO- use L+R and select:
+				+Greyfield for 12th Batallion
+				+Penny for Lazurian
+				+Tabitha for NRA
+				+Cyrus for IDS
+				+No CO for Deserters
+	→changed CO select screen texts to use flavor names for CO zones
+	→fixed Cyrus being unavailable and Caulder being available during WiFi mode
+	→fixed No CO not being selectable from the start
+	→tweaked some CO select screen texts to make all texts be contained within the text box
+	→fixed several tiling errors with and upgraded some 2P maps
+	→added property capture parameter to Rules screen
+	→merged Fog and Weather into one parameter
+	→replaced Level-Up parameter with initial CO meter parameter
+	→added one AI option for auto-AI based on CO personalities
+
+Unit changes:
+	→machine guns/secondary weapons can now damage naval
+		☼damage indicators have been updated to reflect these changes
+	→Carrier idle sprites changed to match moving sprites
+	→changed unit order list for aerial and naval units
+	→reduced costs of Submarine and Gunboat
+	→reduced movement of Missiles to 5
+	→increased secondary weapon damage dealt by tanks to Anti-Tank slightly
+	→changed Produce command to be greyed out if the player has more than 50 units or has insufficient funds
+	
+Miscellaneous changes:
+	→attack and defense UP! indicators are now only lit if the unit gains more than 10 attack/defense from CO zone/power
+	→exact unit HP is now displayed in the unit-terrain mini-box on the bottom screen
+	→tweaked various description texts in various menus
+	→faction icon for Unafilliated reverted back to original
+	→CO units now use unique palettes
+	→menu commands tweaked
+		☼Rules are viewable in campaign mode
+		☼Commander Info, Mission Info, Tutorials, and Options added to WiFi menu commands
+	→changed map animations options text to remove reference to CO power softlocks
+	→campaign and mapedit data can be preserved when deleting all data
+		☼holding L-button preserves mapedit data
+		☼holding R-button preserves campaign progress
+		☼hold either button until all textboxes have been cleared from screen
+	→revamped AI CO unit formula
+		☼Lin and Greyfield now also use Penny's unit list
+		☼AI will now CO unit if the unit's HP is 80% or greater instead of exactly 100%
+	→changed damage indicators for some units
+		☼indicators with a star indicate significant damage (~90+)
+	→changed palettes for Ruins tiles in Normal/Snow tilesets (temporary)
+		
+Records room changes:
+	→added new Records room entries and changed texts and requirements of some entries
+		~the game now keeps track of how many times each CO has been played
+			~(currently programmed to not save between sessions due to an issue with loading)
+	→the unit palettes for Built and Destroyed units now alters between red/blue and yellow/black	
+	→attempted to fix the Records room data saving and loading incorrectly	
+	→changed Force and Team to display most built unit and faction with most COs played from, respectively
+	→changed routine for counting Talon guns destroyed to increment when a Talon gun in destroyed instead of incrementing when Mission "Biological Terrors" is beaten
+	→fixed Sunrise counter incrementing when the incorrect Mission was completed
+
+CO changes:
+	→different work-in-progress expressions have been given to Fanatic and The Beast to replace them having neutral expressions in situations where different expressions would be seen
+	→updated text during CO powers to reflect changes for Greyfield and Tasha
+	→updated code to allow all COs to use CO power without softlocks
+	→tweaked CO select screen graphic for Cyrus to fix a palette issue and make him appear less tall
+	→gave Fanatic some incomplete CO colors
+	→fixed CO power text stating of Tabitha's CO Power description stating that the Pulsatrix bomb has a radius of 3 tiles when it should be 2
+	→changed CO power text for Tabitha to reflect that Firestorm can damage allied units
+	→fixed CO zone text stating that Penny's CO Zone is 3 when it should be 2
+	→updated CO power text for Tabitha to state the value modifiers for Rig, T-Copter, and Gunboat during Firestorm
+	→fixed The Beast having garbage palettes for alternate colors during CO power
+
+Mapedit changes:
+	→fixed bug where Beach tiles were placed incorrectly during autofill
+	→fixed bug that disallowed Beach tiles from being manually placeable where they should be allowed to be placed
+	→added Ruins, Bridge, and Sky as fill options
+	→fixed oversight of neutral Port and all temporary ports not being considered aquatic tiles
+	→changed Sky to be considered a base tile, rendering it undeleteable, similar to Sea and Plain
+
+Known bugs/issues:
+	-during rule select, all CO name graphics use the palette of the fourth CO
+	-during CO select, all COs use one palette for their name graphics
+	-moving the Recon during Mission 10 causes the game to play the event as if it were destroyed already, even if it was not
+	-there are no texts for various things in languages other than English
+	-the tutorial link is incorrect (feel free to check out the link though)
+	-some Freeplay maps may have odd tiling due to tileset change
+	-Cyrus, Davis, The Beast, and Fanatic use default colors for dialogue
+	-some larger Freeplay maps may cause softlock when playing against AI
+	-some COs on the Freeplay select screen use the wrong graphic on bottom screen
+	-the Tactics rooms give a strategy for normal mode instead
+	-CO colors may be messed up with COs past 0xE when using a save from a previous version
+		-the following cheat code can fix the issue:
+			021203B0 00000000 - fix CO color issues from using old saves
+			then save the game to maintain the fixed state
+	-the graphic for Seaplane main weapon may load garbage graphics in the bottom-right corner on ocassion
+		-the graphic fixes itself upon resetting the game (unknown cause, though seems to have no gameplay/performance impacts)
+	-certain cutscenes may softlock the game
+		-the following cheat code should fix the issue:
+			021203B0 00000000
+	-the Rules window during gameplay does not match the Rules screen/show all information
+	-the Rules bottom-screen graphics do not reflect the new rules
+
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Ninth release (β6.2) {04/13/2022} [quick release]:
+Bugfixes:
+	-fixed game softlocking on the victory screen
+	-fixed the base tiles for Meteor and Plasma in the Mapedit mode
+		-delete/overwrite now correctly leave Plain/Sea depending on the base terrain
+	-fixed bug where the game incorrectly checked attacker's position in CO zone when determining if the defender was in CO zone or not
+
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Eighth release (β6.0) {03/18/2022} [Official release] "System Update α":
+Campaign changes:
+	-fixed an incorrect portrait being loaded in Mission 19
+	-fixed an incorrect portrait being loaded in Mission 20
+	-tweaked tiles and unit placements in Mission 16
+	-fixed various softlocks with the Tactics sessions
+
+Freeplay changes:
+	-all COs now selectable on Freeplay CO select screen
+		-hold L+R while switching to a CO to view the second CO, press B to select
+		-No CO is selectable again
+			Will 		-> Davis
+			Brenner 	-> The Beast
+			Lin 		-> Fanatic
+			Isabella 	-> Caulder
+			Greyfield 	-> No CO
+		
+CO changes:
+	-tweaked profile descriptions for a few COs
+	-buffed Tasha's CO power
+	-buffed Greyfield's CO power
+	-changed Greyfield's CO zone
+	-all CO unlocks and colors are properly saved/loaded
+	-The Beast has some work-in-progress CO colors
+
+Terrain changes:
+	-Plasma L. now uses the correct minibox icon and name
+	-the default tilesets now display Talon Gun in the terrain minibox instead of Off Limits
+	-fixed launched Silo using an incorrect description
+	
+Mapedit changes:
+	-added more tiles to the terrain select screen
+		-includes Plasma L., launched Silo, Sky
+		-Silos and Sky change color with faction
+			-purely aesthetic and has no special function
+	-fixed Meteor and Plasma using incorrect graphics
+	-swapped unit locations on the unit selection screen
+
+CO color changes:
+	-all COs now selectable on the CO colors screen
+		-hold L+R while switching to a CO to view the second CO
+			Will -> Davis
+			Brenner -> The Beast
+			Lin -> Fanatic
+			Isabella -> Caulder
+			
+Map changes:
+	-fixed an incorrect tile in Banshee
+
+Miscellaneous changes:
+	-changed the game icon
+	-changed various internal game details
+
+Known bugs/issues:
+	-during rule select, all CO name graphics use the palette of the fourth CO
+	-during CO select, all COs use one palette for their name graphics
+	-moving the Recon during Mission 10 causes the game to play the event as if it were destroyed already, even if it was not
+	-there are no texts for various things in languages other than English
+	-the tutorial link is incorrect (feel free to check out the link though)
+	-some Freeplay maps may have odd tiling due to tileset change
+	-Cyrus and Davis use default colors for dialogue
+	-some larger Freeplay maps may cause softlock when playing against AI
+	-some COs on the Freeplay select screen use the wrong graphic
+	-the Tactics rooms give a strategy for normal mode instead
+	-Fanatic lacks CO colors
+	-CO colors may be messed up with COs past 0xE when using a save from a previous version
+		-the following cheat code can fix the issue:
+			021203B0 00000000 - fix CO color issues from using old saves
+			then save the game to maintain the fixed state
+	-when navigating Freeplay CO select screen with COs past Davis, the cursor
+	behaves oddly when using D-pad
+
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Seventh release (β5.3) {02/01/2022} [Quick release]:
+Campaign changes:
+	-tweaked some text in the final mission
+	-fixed AI error in Mission 15
+	
+Freeplay changes:
+	-fixed softlock for various emulators and hardware when entering CO select screen
+	-fixed softlock on Coil Range 4P map
+	
+CO changes:
+	-changed AI formula for selecting CO unit
+		-Tabitha and Lin now use the general unit list
+		-various units were added to the general unit list
+			-Seaplane, Battleship, Bomber, Cruiser
+			-Cruiser added to indirect list
+	-changed faction icon for Unafilliated faction
+
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Sixth release (β5.0) {01/13/2022} [Official release] "The Hardcoded update":
+Campaign changes:
+	-the correct worldmap theme now plays depending on campaign progress
+	-the correct mission intro theme now plays for all missions
+	-Counterattack now plays on the correct missions
+	-ending credits text has been changed
+	-fixed COs being unlocked after the incorrect mission
+	-fixed initial camera coordinates in Mission 19
+	-tweaked unit placements for Mission 19
+	-fixed a few text errors in Mission 18
+	-fixed some text errors in Mission 11
+	-tweaked some text in Mission 11
+	-tweaked some text in Mission 14
+	-tweaked initial cursor coordinate for Mission 17
+	-tweaked Mission 8 events
+	-tweaked Mission 5 events to make clearer that CO units are unlocked
+	-tweaked Mission 23 map
+	-added Trial maps 1 through 15
+	-fixed incorrect coordinates for Mission 6 reinforcements
+	-fixed CO unit not being available for the player in Mission 5
+	-fixed Mission 4 softlock
+	-tweaked Mission 14 unit placements
+	-incorporated some text from the European script
+	-fixed softlock with Mission 7 Tactics session
+	-fixed an event in Mission 22 that was not trigger/triggering incorrectly
+
+Trial map changes:
+	-added 29 Trial maps
+	
+CO changes:
+	-all COs now have their names displayed on the CO info screen
+	-Cyrus, Davis, and No CO now use Power Up instead during CO power
+	-Cyrus's graphics have been tweaked to partially fix his alternate colors
+	-all COs now can use alternate colors
+	-all COs now use correct battle remarks
+	-tweaked Davis's CO info screen name graphic
+	-Cyrus is now allowed in competitive WiFi mode
+	-Cyrus and Caulder now use the correct text SFX
+	
+Freeplay changes:
+	-changed some 4-player maps
+	-added some 3-player maps to Competitive category
+	-added some 4-player maps to the 4P category
+	-fixed many tiling errors on various maps
+	
+Unit changes:
+	-attempted to fix the Carrier range bug
+	-changed the names of a few weapons
+	-changed the top-screen damage indicator to reflect damage changes
+	-changed a few top-screen unit descriptions
+	
+Miscellaneous changes:
+	-sound room has been expanded and has ten new entries
+	-descriptions for various terrain have been changed
+		-persistent plasma now called "Plasma L." and has its own unique description
+		-Shelter given some flavor text and HQ mini-box graphic
+		-Off-Limits on Great Owl changed
+	-changed description and requirements for some history room records
+	-tweaked some main menu texts and fixed a couple errors
+	-the game will now always be in English regardless of region
+	-updated title screen graphics
+		
+Known bugs/issues:
+	-during rule select, all CO name graphics use the palette of the fourth CO
+	-during CO select, all COs use one palette for their name graphics
+	-moving the Recon during Mission 10 causes the game to play the event as if it were destroyed already, even if it was not
+	-there are no texts for various things in languages other than English
+	-Carriers may glitch when attempting to attack
+		-the workaround is to move the Carrier, then select attack
+	-the tutorial link is incorrect (feel free to check out the link though)
+	-some Freeplay maps may have odd tiling due to tileset change
+	-Cyrus and Davis use default colors for dialogue
+	-Davis and The Beast do not appear completely correctly in Freeplay CO select
+	-the game does not save any CO unlocks and colors past The Beast
+	-some larger Freeplay maps may cause softlock when playing against AI
+	-Freeplay CO select screen is missing a few graphics until all COs are unlocked
+	-the Tactics rooms give a strategy for normal mode instead
+
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Fifth release (β3.2) {11/13/2022} [Minor release]:
+	-fixed world map softlock for various emulators and hardware
+
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Fourth release (β3.0) {10/16/2022} [Official release] "Naval and PVP Update":
+Campaign changes:
+	-Fixed tiling error in Mission 2
+	-Tweaked Mission 5's map
+	-Tweaked Mission 7's map
+	-Tweaked Mission 6's map
+	-Tweaked Mission 16's unit placements
+	-Fixed incorrect portrait in Mission 6
+	-Trial maps have been temporarily removed
+	-Fixed all terms texts to be accurate
+
+Unit changes:
+	-All Naval can traverse Beaches
+	-Cruisers can now attack all ground units
+		-Use secondary weapon for ~(Carrier > Cruiser > Anti-Air) damage
+	-Anti-air damage versus planes reduced somewhat
+	-Increased defense of Battleship and Carrier slightly
+
+Freeplay-related changes:
+	-Added some new competitive PVP maps (+19, 32 total)
+		-Competitive PVP maps now organized alphabetically
+	-Fixed and upgraded several vanilla 2-player maps
+	-Fixed and upgraded several vanilla 3-player maps
+	-Various Freeplay maps tweaked
+	-Freeplay map order tweaked slightly
+		-New/custom maps now appear at the top
+	-Changed up some maps that are used and unused
+	-Changed timer to ~900 seconds from 302.5 seconds.
+	-other changes I probably forgot
+
+CO changes:
+	-Davis now has his own theme
+	-Fanatic now has his own theme
+	-Fixed Davis's CO Info screen name
+	-Davis and Cyrus have CO colors
+	-Davis and The Beast are selectable in Freeplay*
+
+Known bugs/issues:
+	-during rule select, all CO name graphics use the palette of the fourth CO
+	-during CO select, all COs use one palette for their name graphic
+	-an event during Mission 22 fails to execute correctly
+	-moving the Recon during Mission 10 causes the game to play the event as if it were destroyed already, even if it was not
+	-there are no texts for various things in languages other than English
+	-Carriers may glitch when attempting to attack
+		-the workaround is to move the Carrier, then select attack
+	-Cyrus plays Stormy Times instead of Power Up during CO power
+	-Caulder and Fanatic have no name on the CO Info screen
+	-the tutorial link is incorrect (feel free to check out the link though)
+	-some Freeplay maps have odd tiling due to tileset change
+	-a few COs still use incorrect battle remarks
+	-Cyrus and Davis use default colors for dialogue
+	-Davis and The Beast do not appear completely correctly in Freeplay CO select
+
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Third release (β2.0) {07/31/2022} [Official release] "The Lazurian/NRA Update":
+Campaign changes:
+	-added Missions 18, 20
+	-tweaked Mission 4's map and unit placements
+	-tweaked Mission 15's map
+	-changed Mission 21's map
+	-changed several texts for Mission 21
+	-tweaked Mission 22 events
+	-Mission 14's incorrect ending event has been corrected
+	-Mission 14's incorrect camera position has been corrected
+	-changed a few campaign map names
+	-changed various world map palettes
+
+CO changes:
+	-swapped up some CO slots to nearly match original
+			-Cyrus and Caulder have swapped slots
+				-a cheat code is now required to play as Caulder
+			-standard COs now no longer cause softlocks when using CO power
+			-all incorrect portraits have been corrected due to this reversion
+	-tweaked some COs boosts and updated CO Info screen text accordingly
+		-Waylon, Greyfield, Cyrus
+	-changed Freeplay select descriptions to be more precise on CO zone effects
+
+Freeplay-related changes:
+	-added four new 1 vs. 1 PVP maps
+		-Brace Range, River Range, Moon Isle, and Mint Plateu have been removed
+	-South Cape has been replaced with "Skylands"
+		-this serves as a test concept for Freeplay maps with Sky terrain
+	-@Xenesis 's PVP timer hack has been implemented (https://forums.warsworldnews.com/viewtopic.php?f=37&t=13129)
+		-players are granted 302.5 seconds per day
+		-the timer pauses during capture animations and while viewing CO Info
+		-campaign Missions have been given a 600 second timer
+
+Miscellaneous changes:
+	-changed the normal tilesets to a custom one
+		-terrain data has also been updated to reflect these changes
+		-campaign maps and competitive maps have been tweaked to account for the new tileset
+	-all COs have been given a faction color for their name
+		-this applies to their name during texts and cutscenes
+		-colors are assigned to COs based on faction
+	-implented a secondary type of Plasma
+		-does not disappear when nearby Meteors are destroyed
+		-called "Off Limits"
+		-there is a tutorial for it during "A Hero's Farewell"
+	-many GUI texts have been changed
+		-Nintendo WFC texts have been completely changed on Select Mode screen
+	-other changes I probably forgot
+	
+Known bugs/issues:
+	-during rule select, all CO name graphics use the palette of the fourth CO
+	-during CO select, all COs use one palette for their name graphic
+	-an event during Mission 22 fails to execute
+	-moving the Recon during Mission 10 causes the game to play the event as if it were destroyed already, even if it was not
+	-there are no texts for various things in languages other than English
+	-Carriers may glitch when attempting to attack
+		-the workaround is to move the Carrier, then select attack
+	-Davis is called Gage on the CO Info screen
+	-Cyrus plays Stormy Times instead of Power Up during CO power
+	-Caulder has no name on the CO Info screen
+	-the tutorial link is incorrect (feel free to check out the link though)
+	-many Freeplay maps have odd tiling due to tileset change
+	-a few COs still use incorrect battle remarks
+
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Second release (☾β1.25) (nightly snapshot):
+	-added Missions 10, 17, 19, 21, 22, 23, 24
+	-tweaked various COs
+		-Cyrus, The Beast, Davis, CO 0xF, Isabella
+		-Davis and Fanatic are now complete
+	-merged Classic and 2P Freeplay categories together
+	-added Competitive category to Freeplay
+		-added some maps to the Competitive category (check Mission Info -> Terms to view map info)
+	-changed various general/UI texts
+	-Trial maps have been organized
+		-various Trial maps have been changed
+	-fixed issue with Isabella's graphics in Missions 2, 3
+	-fixed Will's unlock name being incorrect
+	-removed COs 0xF and 0x10 's graphics
+		-CO info for COs 0xF and 0x10 have been changed
+		-fixed CO 0xF boosting Fighters
+	-campaign roadmap tweaked
+	-fixed Cyrus causing softlock on using CO power
+	-all COs now correctly use the correct CO power graphics
+	-tweaked faction info boxes on the top-screen
+	-further tweaked various units
+		-naval units overall are cheaper
+		-Anti-tanks are better against tanks
+		-Missiles use Tire B
+		-Carriers now use their unused alternate sprites
+		-Rigs have 2 material
+	-changed various campaign portraits to make use of some unused ones
+	-"Fanatics" faction changed to "Deserters" faction
+	-other changes I probably forgot
+	
+Known bugs/issues:
+	-COs 0xF and higher cause a softlock upon using CO power
+	-various portraits are swapped up
+	-some COs do not have a name in the CO Info screen
+	-a few Missions in the NRA arc are unconnected (temporarily intentional)
+	-CO effect descriptions still use old texts (will be changed after this update)
+	-Only COs 0x00 through 0x0C are selectable on the Freeplay CO select screen
+	-certain COs use the incorrect CO power music
+	-there are no texts for various things in languages other than English
+
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Initial release (β1.0):
+	-added Missions 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15, 16
+	-added Cyrus, The Beast
+		-added incomplete versions of Davis, Fanatic
+		-COs 0xF and 0x10 exist and function, but are given temporary bad graphics
+	-tweaked several units
+	-replaced several Freeplay maps
+	
+Known bugs/issues:
+	-various portraits are swapped in the campaign
+	-Carriers may glitch when attempting to attack
+	-Trial maps are disorganized
+	-COs 0xF and higher cause a softlock upon using CO power	
+	
+
+
+============================================================================

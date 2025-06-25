@@ -1,5 +1,23 @@
 ↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
-Twenty-fifth release (γ9.4) {02/21/2025} [bugfix patch]:
+Twenty-sixth release (γ9.5) {06/24/2025} [test patch]:
+General changes:
+	→added options menu to toggle between vanilla and plus mechanics (work-in-progress)
+	→holding L+R on bootup loads vanilla CO, unit, and map data (work-in-progress)
+
+AI changes:
+	→each CO has been assigned unique AI profiles for Freeplay (work-in-progress)
+	→the AI makes better use of its CO zone
+	→the AI now queues direct-attack and capture units based on their current value rather than movement outside fog of war
+	→the AI now queues HQ-capturing units before other units when continuing captures
+	→the AI will now attack Anti-Tanks with capture units before attacking with direct-attack units
+	→implemented conditional checks and AI action phases to guide the AI to use units better
+
+Bugfixes:
+	→fixed oversight that caused auto AI to assign an invalid AI type instead
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Twenty-fifth release (γ9.4) {02/22/2025} [bugfix patch]:
 Campaign mode changes:
 	→tweaked enemy units for Mission 4
 	→tweaked units and map for Mission 14

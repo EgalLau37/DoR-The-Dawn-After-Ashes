@@ -1,4 +1,34 @@
 ↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Twenty-seventh release (γ9.6) {07/05/2025} [official release] "System update ζ":
+General changes:
+	→finished gameplay options menu
+
+AI changes:
+	→tweaked the AI unit action phases to fix some oddities
+	→ported the AI attack queue from Dual Strike+
+	→added an AI action phase specifically for queueing unit attacks
+	→the AI now waits for allied units to move out of the way rather than immediately considering a tile unuseable
+	→the AI now moves idle units out of the way for attacking units
+	→fixed the AI giving equal weight to HQ/Factory/Airport when attacking a unit capturing those tiles for a particular capture unit attack routine
+	→the AI now considers the potential attack positions of other units in considering where to attack an enemy from
+	→the AI now updates its vision map before every unit action phase during Fog of war
+	→the AI will attack aggresively much less with CO units and units level 2 and above when in repair mode
+	→the AI now takes into account current ammo amounts when calculating damage per tile
+	→the AI now prefers the lowest sum with the greatest value/10 when joining
+	→the AI maximum HP threshold for joining is higher when attempting to join with the CO unit
+	→the AI can now initiate joins with any units, even at 10 HP
+	→when an AI indirect unit is trapped, it no longer immediately gives up
+
+Bugfixes:
+	→fixed oversight that caused the AI to not attack Anti-tanks with a level using foot soldiers during the appropriate phase
+	→fixed oversight that caused the AI CO unit's action override to apply to other units
+	→fixed oversight that caused the AI to end its turn earlier than intended
+	→fixed oversight that allowed the AI to perform certain actions earlier than intended
+	→fixed oversight that caused units with a level to be sorted incorrectly
+	→fixed factions 0 and 5 using incorrect text IDs
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
 Twenty-sixth release (γ9.5) {06/24/2025} [test patch]:
 General changes:
 	→added options menu to toggle between vanilla and plus mechanics (work-in-progress)

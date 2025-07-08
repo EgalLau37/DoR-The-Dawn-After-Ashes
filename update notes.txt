@@ -8,9 +8,12 @@ AI changes:
 	→the AI can now use CO power at the end of the turn
 	→the AI can now move units again after CO power
 	→the AI now uses Tasha's CO power after moving all of her units
+	→merged two AI capture unit routines into one
 
 Bugfixes:
 	→fixed oversight that caused the Gameplay options option to instead lead to the Freeplay menu
+	→fixed AI causing the game to crash when retrieving enemy damage when buying units
+	→fixed oversight that caused surrounded/trapped AI units to crash the game
 
 
 ↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔

@@ -1,4 +1,38 @@
 ↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
+Twenty-ninth release (γ9.8) {07/28/2025} [official release] "System update η":
+
+Main menu changes:
+	→the game now displays the difficulty for each campaign save file
+	→the game now saves which difficulty was selected for each campaign file
+	→the game now checks for the correct amount of Campaign/Trial maps for the gold start depending on difficulty
+
+AI changes:
+	→reduced chance of AI moving next to a unit without making a favorable attack
+
+Freeplay changes:
+	→re-added all the vanilla maps
+	→the PVP maps have been split into their own categories
+	→changed the initial category title back to CLASSIC
+
+Campaign changes:
+	→the normal Campaign maps have been updated to match the plus tilesets
+	→the normal Trial maps have been updated to match the plus tilesets
+	→the game now loads the corresponding map and campaign data for each save file based on the difficulty
+	→the correct world map music now plays depending on maps cleared and the difficulty
+	→the correct character and quote are now displayed for normal Campaign on the results screen
+	→the correct music now plays on the results screen for normal Campaign
+	→changed the general and profile AI on some Campaign and Trial maps (hard) to reflect vanilla values
+
+Bugfixes:
+	→fixed oversight that caused AI to hang the game infinitely when attempting to auto-join
+	→fixed oversight that caused the AI to never use CO power with COs other than Tasha
+	→fixed faction 2 AI in Mission Icy Retreat not correctly retreating
+	→fixed AI able to move on top of allied units in certain situations
+	→fixed incorrect map name for Trial 30 (hard) Axle Roads
+	→fixed missing AI build profile for No CO
+
+
+↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔↔
 Twenty-eighth release (γ9.7) {07/07/2025} [official release]:
 
 AI changes:

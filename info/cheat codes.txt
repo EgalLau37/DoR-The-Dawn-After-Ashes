@@ -1,0 +1,56 @@
+EgalLau37's cheat code compendium:
+
+Unlock some COs 0x0 through 0x12 (will reset any colors):
+02136C40 01010101
+02136C44 01010101
+02136C48 01010101
+02136C4C 01010100
+02136C50 00010100
+
+Fix CO color issues and some cutscene softlocks from using old saves:
+02136C50 00000000
+02136C54 00000000
+
+Unlock most songs for Sound Room:
+02157734 FFC0FFFF
+02157738 03FFFFFF
+
+Unlock all backgrounds for Sound room:
+02157724 FFFFFFFF
+02157728 FFFFFFFF
+0215772C FFFFFFFF
+
+Unlock campaign maps from arcs 1~3 in campaign mode:
+C0000000 00000017
+0215D8A8 0003FFFF
+DC000000 00000004
+D2000000 00000000
+
+Unlock trial maps from arcs 1~3 in campaign mode:
+C0000000 00000012
+0215D960 0003FFFF
+DC000000 00000004
+D2000000 00000000
+
+
+
+Fun cheat codes to use:
+	>AI will CO ANY unit:
+		021AAC18 E3A0300C
+	>AI will NEVER CO unit:
+		021AAC18 E3A0300D
+	>AI will CO ANY ground unit (except Rig):
+		021AAC18 E3A03004
+	>AI will CO ANY aerial unit (except T-Copter):
+		021AAC18 E3A03005
+	>AI will CO ANY naval unit (except Lander):
+		021AAC18 E3A03006
+	>AI will CO ANY ground or aerial unit (except Rig, T-Copter):
+		021AAC18 E3A03007
+	>AI will CO ANY ground or naval unit (except Rig, Lander):
+		021AAC18 E3A03008
+	>AI will CO ANY aerial or naval unit (except T-Copter, Lander):
+		021AAC18 E3A03009
+
+	>Allow placing any unit on any tile in Mapedit mode (only use while in Mapedit mode):
+		0221BD5C E3A00001
